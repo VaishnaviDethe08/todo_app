@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To DO App</title>
+    <style>
+        .list-container {
+            background-color: coral;
+            width: 400px;
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 6px;
+            height: 400px;
+            overflow-y: scroll;
+        }
+        .todo-item {
+           background-color: purple;
+            font-size: 30px;
+            color: white;
+            padding: 5px 20px;
+            border-radius: 30px;
+            margin: 5px;
+            
+        }
+        .action-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            height: 30px;
+        
+        }
+    </style>
+</head>
+<body>
+
+    <div class="list-container" id="list-container">
+        <div class="todo-item">Task Item</div>
+
+    </div>
+    <div class="action-container">
+        <input type="text" id="input-todo" class="input-todo"/>
+   
+    <button onclick="add()">
+        Add</button>
+    </div>
+
+        <script>
+            const todoList = [];
+            function add() 
+            {
+              const inputElement = document.getElementById('input-todo');
+              todoList.push(inputElement.value)
+              inputElement.value = ""
+
+              rendorToDoList()
+            }
+            
+            function rendorToDoList()
+            {
+              const listContainer = document.getElementById('list-container');
+              listContainer.innerHTML = ""
+
+              for (const todoItem of todoList) 
+              {
+                listContainer.innerHTML += `<div class="todo-item">
+                    <input type="checkbox" />
+                    ${todoItem}
+                    </div>`;
+              }
+            }
+        </script>
+</body>
+</html>
