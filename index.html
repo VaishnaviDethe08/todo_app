@@ -36,7 +36,7 @@
 <body>
 
     <div class="list-container" id="list-container">
-        <div class="todo-item">Task Item</div>
+       
 
     </div>
     <div class="action-container">
@@ -47,17 +47,27 @@
     </div>
 
         <script>
-            const todoList = [];
+            let todoList = [];
+
+            const listFromLocalStorage = localStorage.getItem("todoList");
+
+            if(listFromLocalStorage) 
+            {
+                todoList = JSON.parse(listFromLocalStorage);
+                renderToDoList()
+            }
             function add() 
             {
               const inputElement = document.getElementById('input-todo');
-              todoList.push(inputElement.value)
-              inputElement.value = ""
+              todoList.push(inputElement.value);
 
-              rendorToDoList()
+              localStorage.setItem("todoList", JSON.stringify(todoList));
+              inputElement.value = "";
+
+              renderToDoList()
             }
             
-            function rendorToDoList()
+            function renderToDoList()
             {
               const listContainer = document.getElementById('list-container');
               listContainer.innerHTML = ""
