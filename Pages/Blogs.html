@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../CSS/Home.css" />
+    <link rel="stylesheet" href="./../CSS/Style.css" />
+    <link rel="stylesheet" href="./../CSS/cateogory.css" />
+    <link rel="stylesheet" href="./../CSS/fruit.css" />
+    <title>Vegetables Juice</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="section1">
+          <div class="left">
+            <span
+              ><u class="Free-shipping">Free shipping</u> on orders over
+              ₹400!</span
+            >
+          </div>
+    
+          <div class="middle">
+            <div class="Brand">
+              <h1>Mahakal Juice Shop</h1>
+            </div>
+            <div>
+              <img src="./../Icons/logo_new.png" class="logo" />
+            </div>
+          </div>
+          <div class="search-main">
+            <input
+              type="search"
+              placeholder="Find your items"
+              class="searchbar"
+            />
+            <div class="simg">
+              <img src="./../Icons/search-interface-symbol (1).png" class="search-img" />
+            </div>
+          </div>
+        </div>
+        
+        <div class="section2">
+          <div class="left">
+              <span class="number"> call +918379838187</span>
+          </div>
+          <ul class="middle">
+            <li class="current"><a href="./../Pages/Home.html">Home </a></li>
+            <li><a href="./Blogs.html">Vegetable Juice </a></li>
+            <li><a href="./Menu.html">Menu </a></li>
+            <li><a href="./Recipe.html">Fruit Juice </a></li>
+          </ul>
+    
+          <div class="right">
+              <img src="./../Icons/user (1).png" class="nav-img img2">
+              <img src="./../Icons/e-commerce (1).png" class="nav-img img2">
+              <img src="./../Icons/shopping-cart (1).png" class="nav-img img2">
+            </div>
+        </div>
+        
+      </nav>
+    
+      
+      
+<div class="card-container card">
+ <div class="product-card fruit">
+        
+          <img class="product-img" src="./../images/carrot-juice.jpg" >
+        
+        <div class="card-body">
+        <p class="product-info">Happy Sips Carrot juice</p>
+        
+        <span class="price">  M.R.P: <b style="font-size: 18px;">₹65</b>
+
+          <span style="color: rgb(88, 82, 82);"> <del>₹130 </del></span>(45% off)
+        </span>
+        <p id="show-quantity_1">1 x 65</p>
+        <p id="show-total_1"> Total = 65 </p>
+        
+        <div class="btn-container">
+          <img src="../Icons/minus.jpg" class="btn-quantity" onclick="dec()">
+          <span class="quantity-text" id="quantity-text">1</span>
+          <img src="../Icons/add1.jpg" class="add" onclick="inc()"><br>
+          
+        </div>
+        
+        
+        
+        <button class="btn"  type="button">Add to cart</button>
+        
+        <button class="btn"  type="button">Buy Now</button>
+        </div>
+        
+        </div>
+
+        <div class="product-card fruit">
+
+            <img class="product-img" src="./../images/spinach.jpg" >
+          
+          <div class="card-body">
+          <p class="product-info">Happy Sips orange juice.</p>
+          
+          <span class="price">  M.R.P: <b style="font-size: 18px;">₹65</b>
+
+            <span style="color: rgb(88, 82, 82);"> <del>₹130 </del></span>(45% off)
+          </span>
+          <p id="show-quantity_1">1 x 65</p>
+          <p id="show-total_1"> Total = 65 </p>
+          <div class="btn-container">
+            <img src="../Icons/minus.jpg" class="btn-quantity" onclick="decrement()">
+            <span class="quantity-text" id="quantity-text_1">1</span>
+            <img src="../Icons/add1.jpg" class=" add" onclick="increment()"><br>
+            
+          </div>
+          <button class="btn"  type="button">Add to cart</button>
+          
+          <button class="btn"  type="button">Buy Now</button>
+          
+          </div>
+          </div>
+
+
+          <div class="product-card fruit">
+
+            <img class="product-img cucumber" src="./../images/Cucumber-juice2.jpg" >
+          
+          <div class="card-body">
+          <p class="product-info">Happy Sips Cucumber juice.</p>
+          
+          <span class="price">  M.R.P: <b style="font-size: 18px;">₹65</b>
+
+            <span style="color: rgb(88, 82, 82);"> <del>₹130 </del></span>(45% off)
+          </span>
+          <p id="show-quantity_1">1 x 65</p>
+          <p id="show-total_1"> Total = 65 </p>
+          <div class="btn-container">
+            <img src="../Icons/minus.jpg" class="btn-quantity" onclick="decr()">
+            <span class="quantity-text" id="quantity-text_2">1</span>
+            <img   src="../Icons/add1.jpg" class=" add" onclick="incr()"><br>
+            
+          </div>
+          
+          <button class="btn"  type="button">Add to cart</button>
+          
+          <button class="btn"  type="button">Buy Now</button>
+          
+          </div>
+          </div>
+        
+    
+          <div class="product-card fruit">
+
+            <img class="product-img" src="./../images/beetroot-juice.jpg" >
+          
+          <div class="card-body">
+          <p class="product-info">Happy Sips Grape juice.</p>
+          
+          <span class="price">  M.R.P: <b style="font-size: 18px;">₹65</b>
+
+            <span style="color: rgb(88, 82, 82);"> <del>₹130 </del></span>(45% off)
+          </span>
+          <p id="show-quantity_1">1 x 65</p>
+          <p id="show-total_1"> Total = 65 </p>
+          
+          <div class="btn-container">
+            <img src="../Icons/minus.jpg" class="btn-quantity" onclick="decre()">
+            <span class="quantity-text" id="quantity-text_3">1</span>
+            <img   src="../Icons/add1.jpg" class=" add" onclick="incre()"><br>
+            
+          </div>
+          
+          <button class="btn"  type="button">Add to cart</button>
+          
+          <button class="btn"  type="button">Buy Now</button>
+          
+          </div>
+          </div>
+
+          <div class="product-card fruit">
+
+            <img class="product-img" src="./../images/Broccoli_juice.jpg" >
+          
+          <div class="card-body">
+          <p class="product-info">Happy Sips Broccoli juice.</p>
+          
+          <span class="price">  M.R.P: <b style="font-size: 18px;">₹65</b>
+
+            <span style="color: rgb(88, 82, 82);"> <del>₹130 </del></span>(45% off)
+          </span>
+          <p id="show-quantity_1">1 x 65</p>
+          <p id="show-total_1"> Total = 65 </p>
+          <div class="btn-container">
+            <img src="../Icons/minus.jpg" class="btn-quantity" onclick="decrem()">
+            <span class="quantity-text" id="quantity-text_4">1</span>
+            <img   src="../Icons/add1.jpg" class=" add" onclick="increm()"><br>
+            
+          </div>
+          
+          <button class="btn"  type="button">Add to cart</button>
+          
+          <button class="btn"  type="button">Buy Now</button>
+          
+          </div>
+          </div>
+
+          <div class="product-card fruit">
+
+            <img class="product-img" src="./../images/capsicum-juice.jpg" >
+          
+          <div class="card-body">
+          <p class="product-info">Happy Sips Capsicum juice.</p>
+          
+          <span class="price">  M.R.P: <b style="font-size: 18px;">₹65</b>
+
+            <span style="color: rgb(88, 82, 82);"> <del>₹130 </del></span>(45% off)
+          </span>
+          <p id="show-quantity_1">1 x 65</p>
+          <p id="show-total_1"> Total = 65 </p>
+          
+          <div class="btn-container">
+            <img src="../Icons/minus.jpg" class="btn-quantity" onclick="minus()">
+            <span class="quantity-text" id="quantity-text_5">1</span>
+            <img   src="../Icons/add1.jpg" class=" add" onclick="plus()"><br>
+            
+          </div>
+          
+          <button class="btn"  type="button">Add to cart</button>
+          
+          <button class="btn"  type="button">Buy Now</button>
+          
+          </div>
+          </div>
+
+          <div class="product-card fruit">
+
+            <img class="product-img" src="./../images/Cabbage-juice.jpg" >
+          
+          <div class="card-body">
+          <p class="product-info">Happy Sips Cabbage juice.</p>
+          
+          <span class="price">  M.R.P: <b style="font-size: 18px;">₹65</b>
+
+            <span style="color: rgb(88, 82, 82);"> <del>₹130 </del></span>(45% off)
+          </span>
+          <p id="show-quantity_1">1 x 65</p>
+          <p id="show-total_1"> Total = 65 </p>
+          
+          <div class="btn-container">
+            <img src="../Icons/minus.jpg" class="btn-quantity" onclick="sub()">
+            <span class="quantity-text" id="quantity-text_6">1</span>
+            <img   src="../Icons/add1.jpg" class=" add" onclick="add()"><br>
+            
+          </div>
+          
+          <button class="btn"  type="button">Add to cart</button>
+          
+          <button class="btn"  type="button">Buy Now</button>
+          
+          </div>
+          </div>
+
+          <div class="product-card fruit">
+
+            <img class="product-img" src="./../images/swiss-chard.png" >
+          
+          <div class="card-body">
+          <p class="product-info">Happy Sips Swiss Chard juice.</p>
+          
+          <span class="price">  M.R.P: <b style="font-size: 18px;">₹65</b>
+
+            <span style="color: rgb(88, 82, 82);"> <del>₹130 </del></span>(45% off)
+          </span>
+          <p id="show-quantity_1">1 x 65</p>
+          <p id="show-total_1"> Total = 65 </p>
+          <div class="btn-container">
+            <img src="../Icons/minus.jpg" class="btn-quantity" onclick="subtraction()">
+            <span class="quantity-text" id="quantity-text_7">1</span>
+            <img   src="../Icons/add1.jpg" class=" add" onclick="addition()"><br>
+            
+          </div>
+          
+          <button class="btn"  type="button">Add to cart</button>
+          
+          <button class="btn"  type="button">Buy Now</button>
+          
+          </div>
+          </div>
+    
+          <footer>
+            <div class="container">
+       
+              <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p> Experience the taste of nature's bounty in every sip, knowing you're enjoying the finest, most flavorful juice possible.</p>
+                <ul class="sci">
+                  <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558721_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9302820&mcid=6844056167778418689&cid=&gad_source=1&gclid=Cj0KCQjwztOwBhD7ARIsAPDKnkDRwYDFsc3of8LDmxY6ncpgwSj5fxsHWkyX3PnYFTZ2xSnZUqm-UpkaAlb-EALw_wcB&gclsrc=aw.ds"><i class="fa-brands fa-linkedin-in"></i></a></li>
+       
+       
+                </ul>
+              </div>
+              <div class="sec contact">
+                <h2>Contact Us</h2>
+                <ul class="info">
+                  <li>
+                    <span><i class="fa-solid fa-phone"></i></span><p>
+                      <a href="tel:+918379838187">+918379838187</a>
+                    </p>
+                  </li>
+                  <li>
+                    <span><i class="fa-regular fa-envelope"></i></span><p>
+                      <a href="mailto:mahakaljuice@email.com">mahakaljuice@email.com</a>
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+              <div class="sec quicklinks">
+                <h2>Shop</h2>
+                <ul>
+                  <li><a href="#">Vegetable Juice</a></li>
+                  <li><a href="#">fruit Juice</a></li>
+                  <li><a href="#">Mix Juice</a></li>
+              
+       
+                </ul>
+              </div>
+              <div class="sec quicklinks">
+                <h2>Support</h2>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Contact</a></li>
+       
+                </ul>
+              </div>
+       
+       
+            </div>
+        </footer>
+        <div class="copyrighttext">
+            <p>Copyright © 2024 mahakal juice shop. All rights reserved.</p>
+          </div>
+
+
+          <script>
+            function juice(a)
+                 {
+                    const variety = document.getElementById('variety');
+                    if(a=='fruit')
+                    {
+                    variety.src = '../videos/orange_juice.mp4';
+                    }
+                    else if(a=='veg')
+                     {
+                         variety.src = '../videos/veg.mp4';
+                     }
+                     
+         
+                     else if(a=='mixed')
+                     {
+                         variety.src = '../videos/mixed.mp4';
+                     }
+                     
+                   }
+          const quantityText = document.getElementById("quantity-text");
+           const showQuantity = document.getElementById("show-quantity");
+           const showTotal = document.getElementById("show-total");
+         function inc()
+         {
+          
+           let quantity = parseInt(quantityText.innerText);
+           if(quantity < 5)
+           {
+             quantityText.innerText = ++quantity;
+           }
+           else
+           {
+             alert("you cant add more than 5 items")
+           }
+           showQuantity.innerText = `${quantity} x 50`;
+           showTotal.innerText = `Total:${quantity * 50}`
+         }
+         function dec()
+         {
+           let quantity = parseInt(quantityText.innerText);
+           if(quantity > 1)
+           {
+             quantityText.innerText = --quantity;
+           }
+           else
+           {
+             alert("you cant add less than 1 items")
+           }
+           showQuantity.innerText = `${quantity} x 50`
+           showTotal.innerHTML = `Total:${quantity * 50}`
+         }
+         const quantityText_1 = document.getElementById("quantity-text_1");
+           const showQuantity_1 = document.getElementById("show-quantity_1");
+           const showTotal_1 = document.getElementById("show-total_1");
+         function increment()
+         {
+          
+           let quantity = parseInt(quantityText_1.innerText);
+           if(quantity < 5)
+           {
+             quantityText_1.innerText = ++quantity;
+           }
+           else
+           {
+             alert("you cant add more than 5 items")
+           }
+           showQuantity_1.innerText = `${quantity} x 65`;
+           showTotal_1.innerText = `Total:${quantity * 65}`
+         }
+         
+         function decrement()
+         {
+           let quantity = parseInt(quantityText_1.innerText);
+           if(quantity > 1)
+           {
+             quantityText_1.innerText = --quantity;
+           }
+           else
+           {
+             alert("you cant add less than 1 items")
+           }
+           showQuantity_1.innerText = `${quantity} x 50`
+           showTotal_1.innerHTML = `Total:${quantity * 50}`
+         }
+         
+         
+         
+         const quantityText_2 = document.getElementById("quantity-text_2");
+           const showQuantity_2 = document.getElementById("show-quantity_2");
+           const showTotal_2 = document.getElementById("show-total_2");
+         function incr()
+         {
+          
+           let quantity = parseInt(quantityText_2.innerText);
+           if(quantity < 5)
+           {
+             quantityText_2.innerText = ++quantity;
+           }
+           else
+           {
+             alert("you cant add more than 5 items")
+           }
+           showQuantity_2.innerText = `${quantity} x 60`;
+           showTotal_2.innerText = `Total:${quantity * 60}`
+         }
+         
+         function decr()
+         {
+           let quantity = parseInt(quantityText_2.innerText);
+           if(quantity > 1)
+           {
+             quantityText_2.innerText = --quantity;
+           }
+           else
+           {
+             alert("you cant add less than 1 items")
+           }
+           showQuantity_2.innerText = `${quantity} x 60`
+           showTotal_2.innerHTML = `Total:${quantity * 60}`
+         }
+
+  const quantityText_3 = document.getElementById("quantity-text_3");
+  const showQuantity_3 = document.getElementById("show-quantity_3");
+  const showTotal_3 = document.getElementById("show-total_3");
+
+         function incre()
+{
+ 
+  let quantity = parseInt(quantityText_3.innerText);
+  if(quantity < 5)
+  {
+    quantityText_3.innerText = ++quantity;
+  }
+  else
+  {
+    alert("you cant add more than 5 items")
+  }
+  showQuantity_3.innerText = `${quantity} x 60`;
+  showTotal_3.innerText = `Total:${quantity * 60}`
+}
+
+function decre()
+{
+  let quantity = parseInt(quantityText_3.innerText);
+  if(quantity > 1)
+  {
+    quantityText_3.innerText = --quantity;
+  }
+  else
+  {
+    alert("you cant add less than 1 items")
+  }
+  showQuantity_3.innerText = `${quantity} x 60`
+  showTotal_3.innerHTML = `Total:${quantity * 60}`
+}
+
+
+
+  const quantityText_4 = document.getElementById("quantity-text_4");
+  const showQuantity_4 = document.getElementById("show-quantity_4");
+  const showTotal_4 = document.getElementById("show-total_4");
+
+         function increm()
+{
+ 
+  let quantity = parseInt(quantityText_4.innerText);
+  if(quantity < 5)
+  {
+    quantityText_4.innerText = ++quantity;
+  }
+  else
+  {
+    alert("you cant add more than 5 items")
+  }
+  showQuantity_4.innerText = `${quantity} x 60`;
+  showTotal_4.innerText = `Total:${quantity * 60}`
+}
+
+function decrem()
+{
+  let quantity = parseInt(quantityText_4.innerText);
+  if(quantity > 1)
+  {
+    quantityText_4.innerText = --quantity;
+  }
+  else
+  {
+    alert("you cant add less than 1 items")
+  }
+  showQuantity_4.innerText = `${quantity} x 60`
+  showTotal_4.innerHTML = `Total:${quantity * 60}`
+}
+
+const quantityText_5 = document.getElementById("quantity-text_5");
+  const showQuantity_5= document.getElementById("show-quantity_5");
+  const showTotal_5 = document.getElementById("show-total_5");
+
+         function plus()
+{
+ 
+  let quantity = parseInt(quantityText_5.innerText);
+  if(quantity < 5)
+  {
+    quantityText_5.innerText = ++quantity;
+  }
+  else
+  {
+    alert("you cant add more than 5 items")
+  }
+  showQuantity_5.innerText = `${quantity} x 60`;
+  showTotal_5.innerText = `Total:${quantity * 60}`
+}
+
+function minus()
+{
+  let quantity = parseInt(quantityText_5.innerText);
+  if(quantity > 1)
+  {
+    quantityText_5.innerText = --quantity;
+  }
+  else
+  {
+    alert("you cant add less than 1 items")
+  }
+  showQuantity_5.innerText = `${quantity} x 60`
+  showTotal_5.innerHTML = `Total:${quantity * 60}`
+}
+
+const quantityText_6 = document.getElementById("quantity-text_6");
+  const showQuantity_6= document.getElementById("show-quantity_6");
+  const showTotal_6 = document.getElementById("show-total_6");
+
+         function add()
+{
+ 
+  let quantity = parseInt(quantityText_6.innerText);
+  if(quantity < 5)
+  {
+    quantityText_6.innerText = ++quantity;
+  }
+  else
+  {
+    alert("you cant add more than 5 items")
+  }
+  showQuantity_6.innerText = `${quantity} x 60`;
+  showTotal_6.innerText = `Total:${quantity * 60}`
+}
+
+function sub()
+{
+  let quantity = parseInt(quantityText_6.innerText);
+  if(quantity > 1)
+  {
+    quantityText_6.innerText = --quantity;
+  }
+  else
+  {
+    alert("you cant add less than 1 items")
+  }
+  showQuantity_6.innerText = `${quantity} x 60`
+  showTotal_6.innerHTML = `Total:${quantity * 60}`
+}
+
+
+const quantityText_7 = document.getElementById("quantity-text_7");
+  const showQuantity_7= document.getElementById("show-quantity_7");
+  const showTotal_7 = document.getElementById("show-total_7");
+
+         function addition()
+{
+ 
+  let quantity = parseInt(quantityText_7.innerText);
+  if(quantity < 5)
+  {
+    quantityText_7.innerText = ++quantity;
+  }
+  else
+  {
+    alert("you cant add more than 5 items")
+  }
+  showQuantity_7.innerText = `${quantity} x 60`;
+  showTotal_7.innerText = `Total:${quantity * 60}`
+}
+
+function subtraction()
+{
+  let quantity = parseInt(quantityText_7.innerText);
+  if(quantity > 1)
+  {
+    quantityText_7.innerText = --quantity;
+  }
+  else
+  {
+    alert("you cant add less than 1 items")
+  }
+  showQuantity_7.innerText = `${quantity} x 60`
+  showTotal_7.innerHTML = `Total:${quantity * 60}`
+}
+
+          </script>
+</body>
+</html>

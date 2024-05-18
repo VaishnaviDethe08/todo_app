@@ -1,0 +1,271 @@
+/* colors
+    rgb(81, 118, 63)
+    wheat
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+body{
+    background-color: antiquewhite;
+
+}
+
+nav{
+    width: 100%;
+}
+
+.section1{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.Free-shipping{
+    color: #6610f2;
+    font-weight: bolder;
+}
+
+ .Brand h1{
+    display: inline;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.nav-img{
+    height: 35px;
+}
+
+.logo{
+    height: 50px;
+}
+.search-main{
+    display: flex;
+}
+.searchbar{
+    height: 35px;
+    border: 0.5px solid wheat;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+}
+.number a{
+    text-decoration: none;
+    color: wheat;
+}
+.simg{
+    height: 35px;
+    width: 40px;
+    border: 1px solid black;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-img{
+    height: 15px;
+    
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+}
+
+.middle{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.current{
+    color: white;
+}
+
+.middle li{
+    text-decoration: none;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+
+.middle li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.dropdown{
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: wheat;
+    background-color: rgb(81, 118, 63);
+    cursor: pointer;
+}
+
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 15px;
+    background-color: rgb(81, 118, 63);
+}
+.img2{
+    margin-left: 30px;
+}
+.hamburger{
+    display: none;
+}
+
+footer{
+    padding: 50px 100px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: rgb(81, 118, 63);
+}
+
+footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+footer .container .sec h2{
+    position: relative;
+    color: wheat;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .container .sec p{
+    color: #fff ;
+}
+
+footer .container .sci{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+
+}
+
+footer .container .sci li{
+    list-style: none;
+}
+
+footer .container .sci li a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: wheat;
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer .container .sci li a i{
+    color: black;
+    font-size: 20px;
+
+}
+footer .container .quicklinks{
+    position: relative;
+}
+
+footer .container .quicklinks ul li{
+    list-style: none;
+}
+
+footer .container .quicklinks ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer .container .contact .info{
+    position: relative;
+}
+footer .container .contact .info li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+}
+footer .container .contact .info li span{
+    color: #fff;
+    font-size: 20px;
+    gap: 10px;
+}
+
+footer .container .contact .info li span a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .container .contact .info li span i{
+    color: wheat;
+}
+
+.copyrighttext{
+    width: 100%;
+    background: rgb(81, 118, 63);
+    padding: 20px 100px 30px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.15);
+    color: wheat;
+}
+
+@media (max-width: 991px)
+{
+    footer{
+        padding: 40px;  
+    }
+    footer .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;}
+    .copyrighttext{
+        padding: 20px 40px 30px;
+    }
+}
+
+@media (max-width:900px){
+    .section2 .middle{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+@media (max-width: 768px)
+{
+    
+    footer .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;}  
+
+    
+    .section1 .left{
+        display: none;
+    }
+}
+
+

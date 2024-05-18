@@ -1,0 +1,82 @@
+.image{
+    text-align: start;
+    }
+    
+    .image img{
+        width: 800px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        
+    }
+    
+    .heading{
+        font-family: "Dancing Script", cursive;
+        font-size: 50px;
+        font-weight: 1500;
+        font-style: normal;
+        margin-bottom: 20px;
+        margin-left: 300px;
+    }
+    
+    .explaination{
+      margin-left: 50px;
+      margin-bottom: 25px;
+      font-size: 20px;
+    }
+
+    
+@media (max-width:900px){
+    .video-main video{
+      width: 600px;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      margin-left: 50px;
+      
+  }
+  
+  }
+  
+  
+  @media (max-width:657px){
+    .video-main video{
+      width: 450px;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      margin-left: 30px;
+      
+  }
+  .explaination{
+    margin-left: 30px;
+  }
+  .heading{
+    margin-left: 30px;
+  }
+  }
+  
+  
+  @media (max-width:505px){
+    .video-main video{
+      width: 350px;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      margin-left: 30px;
+      
+  }
+  .explaination{
+    margin-left: 30px;
+  }
+  
+  }
+  
+  
+  @media (max-width:391px){
+    .video-main video{
+      width: 300px;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      margin-left: 30px;
+      
+  }
+  }
+  

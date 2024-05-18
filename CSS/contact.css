@@ -1,0 +1,131 @@
+.hero {
+    background-color: antiquewhite;
+    width: 100%;
+
+}
+
+.product-card-info {
+    background-image: url("./../images/juice-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 30px auto;
+    padding: 3px;
+}
+
+.product-card-sm {
+    width: 390px;
+    height: 420px;
+    margin-left: 440px;
+    border-radius: 20px;
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    padding: 3px;
+
+}
+
+
+.heading {
+    margin-top: 7px;
+    margin-left: 550px;
+    font-family: "Dancing Script", cursive;
+    color: #fff;
+}
+
+.bg-img {
+    width: 1500px;
+    height: 530;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.main-btn {
+    margin-left: 120px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+    padding: 5px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #001f4d;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.main-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#name {
+    margin-top: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.Icon {
+    width: 30px;
+}
+
+@media (max-width: 991px) {
+    .product-card-info {
+        width: 95%;
+        display: grid;
+    }
+
+    .product-card-sm {
+        margin-left: 270px;
+        display: grid;
+        margin-top: 2px;
+
+    }
+
+    .heading {
+        margin-left: 370px;
+        display: grid;
+        margin-top: 20px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .product-card-info {
+        width: 96%;
+        display: grid;
+    }
+
+    .product-card-sm {
+        margin-left: 170px;
+        width: 50%;
+        display: grid;
+        margin-top: 2px;
+
+    }
+
+    .heading {
+        margin-left: 280px;
+        display: grid;
+        margin-top: 20px;
+
+    }
+
+}

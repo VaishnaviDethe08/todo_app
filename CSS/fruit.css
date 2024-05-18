@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fruit {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.img-bottle {
+    height: 200px;
+    padding-top: 10px;
+}
